@@ -12,8 +12,8 @@ This repository contains an efficient implementation of the Timsort algorithm in
 
 Clone this repository to your local machine:
 
-```
-git clone https://github.com/LMouhssine/Timsort
+```bash
+git clone https://github.com/LMouhssine/Timsort.git
 cd Timsort
 ```
 
@@ -34,6 +34,23 @@ print(sorted_arr)
 
 Timsort has a time complexity of O(n log n) in the worst and average cases, and O(n) in the best case. It is designed to take advantage of partial ordering in the input data, making it particularly efficient for real-world datasets.
 
+## Running Tests
+
+To run the unit tests, execute the following command in the project directory:
+
+```bash
+python -m unittest test_timsort.py
+```
+
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License and Usage Rights
+
+This project is currently provided without a specific license. All rights are reserved by the project owner. If you wish to use, modify, or distribute this code, please contact the project owner for permission.
+
+## Acknowledgments
+
+- Tim Peters for creating the Timsort algorithm
+- Python Software Foundation for incorporating Timsort into Python's standard library
